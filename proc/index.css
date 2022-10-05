@@ -1,0 +1,182 @@
+/* Default  */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(250, 244, 239);
+    box-sizing: border-box;
+}
+/* header  */
+.main{
+    margin: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    margin: 2px;
+}
+/* logo  */
+#left{
+    width:25%;
+    text-align: center; 
+    padding-top: 15px;
+    margin-top: 9px;
+}
+#menuicon{
+    display: none;
+}
+/* options  */
+#mid{
+    width: 40%;
+    color: grey;
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.container ul li{
+    margin: 4px;
+    margin-top: 25px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: grey;    
+}    
+.submenu{
+    display: none;
+    height: 100%;
+}
+.active:hover .submenu{
+    display: block;
+    position: absolute;
+    top: 50px;
+    margin-left: -50px;
+}
+.submenu ul{
+    background-color: white;
+    border-radius: 9px;
+    display: block;
+    padding-left: 2px;
+}
+.submenu ul li{
+    padding: 9px;
+    justify-content: center;
+    width: 400px;
+}
+.submenu ul li div{
+    display: flex;
+    align-items: flex-start;
+}
+.submenu ul li div img{
+    padding-right: 9px;
+}
+.sub-head{
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Buttons  */
+#right{
+    width: 25%;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 12px;
+}
+.btn{
+    /* padding: 15px; */
+    height: 43px;
+    width: 110px;
+    cursor: pointer;
+}
+#btn1{
+    border-style: none;
+    background-color:rgb(247, 238, 230) ;
+    color: gray;
+}
+#btn2{
+    border-style: none;
+    background-color: rgb(6, 53, 6);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.container1{
+    display: flex;
+    padding: 20px;
+}
+.container1 div{
+    margin: 7px;
+}
+.container1 img{
+    width: 380px;
+    height: 511px;
+    height: 450px;
+    padding: 23px;
+}
+.container1 div h1{
+    font-size: 50px;
+    margin: 14px;
+    margin-left: 86px;
+    margin-top: 64px;
+    padding: 18px;
+}
+.container1 div p{
+    margin: 20px;
+    padding: 18px;
+    color: gray;
+    margin-left: 86px;
+}
+.container1 div button{
+    margin: 20px;
+    margin-top: 5px;
+    margin-left: 104px;
+    border-style: none;
+    background-color: rgb(6, 53, 6);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 43px;
+    width: 110px;  
+    cursor: pointer;  
+}
+.container1 .para{
+    font-size: larger;
+    color: gray;
+    margin-top: 0px;
+}
+.container1 span{
+    color: rgb(232, 169, 51);
+    /* font-size: 50px; */
+}
+.container1 div .im{
+    width: 24px;
+    height: 19px;
+    margin: -26px;
+}
+.end{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end p{
+    padding-bottom: 19px;
+    color: gray;
+}
+#companies{
+    margin-top: 7px;
+    display: flex;
+}
+#companies img{
+    padding: 21px;
+    height: 40px;
+}
